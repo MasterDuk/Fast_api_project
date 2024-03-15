@@ -1,27 +1,27 @@
-# Учебный проект на тему меню ресторана. Реализован CRUD на python (FastAPI) + PostgreSQL.
+# Educational project on the theme of a restaurant menu. Implemented CRUD in python (FastAPI) + PostgreSQL.
 
-### Инструкция по установке для Ubuntu 22.04:
+### Installation instructions for Ubuntu 22.04:
 
-Скопировать проект с репозитория на локальную машину, командой:
-*   git clone https://github.com/Sana451/fast_api_project.git
-
-
-Перейти в папку с проектом командой:
-*   cd ./fast_api_project/
+Copy the project from the repository to the local machine using the command:
+* git clone https://github.com/Sana451/fast_api_project.git
 
 
-При необходимости создать виртуальное окружение, командой:
-*   python3 -m venv api
-*   source api/bin/activate
+Go to the project folder with the command:
+* cd ./fast_api_project/
 
 
-Установить python зависимости, командой:
-*   pip install -r requirements.txt
+If necessary, create a virtual environment using the command:
+* python3 -m venv api
+* source api/bin/activate
 
 
-Открыть файл models.py и настроить параметры подключения к базе данных PostgreSQL 
+Install python dependencies with the command:
+* pip install -r requirements.txt
+
+
+Open models.py file and configure parameters for connecting to the PostgreSQL database
 (DB_USER, DB_PASSWD, DB_HOST, DB_PORT, DB_NAME).
 
 
-Запустить сервер, командой:
-*   uvicorn main:app --host localhost --port 8000 --reload
+Start the server with the command:
+* uvicorn main:app --host localhost --port 8000 --reload
