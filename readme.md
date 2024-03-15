@@ -3,7 +3,7 @@
 ### Installation instructions for Ubuntu 22.04:
 
 Copy the project from the repository to the local machine using the command:
-* git clone https://github.com/Sana451/fast_api_project.git
+* git clone https://github.com/MasterDuk/Fast_api_project.git
 
 
 Go to the project folder with the command:
